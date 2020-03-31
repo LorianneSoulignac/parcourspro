@@ -1,0 +1,319 @@
+body {
+    background-size: cover;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    background-color: #E0FFFF;
+}
+
+#idTitreParPro {
+    text-align: center;
+    font-family: Verdana, Tahoma;
+    color: black;
+    margin-top: 0%;
+    font-size: 400%;
+    background-image: url("img/pp_background.jpg");
+    background-size: cover;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#bacSection {
+    font-family: verdana;
+    background-color: #20B2AA;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+#DUTSection {
+    font-family: verdana;
+    background-color: #20B2AA;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#BAFASection {
+    font-family: verdana;
+    background-color: #20B2AA;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#LicenceSection {
+    width: 45%;
+    font-family: verdana;
+    background-color: #20B2AA;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* float: right; */
+}
+
+#HRSection {
+    font-family: verdana;
+    background-color: #20B2AA;
+    margin-left: 2%;
+    margin-right: 10%;
+    width: 33%;
+    float: right;
+    padding-bottom: 1.2%;
+    margin-top: 0.3%;
+}
+
+#masterSection {
+    font-family: verdana;
+    background-color: #20B2AA;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+}
+
+#imgEvol {
+    margin: auto;
+    padding: auto;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+}
+
+.flot {
+    float: left;
+}
+
+#textLycee {
+    text-align: justify;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+#textDUT {
+    text-align: justify;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+#textBAFA {
+    text-align: justify;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+#textLicence {
+    text-align: justify;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+#textHR {
+    text-align: justify;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+#textMaster {
+    text-align: justify;
+    padding-left: 0%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-bottom: 3%;
+}
+
+h2 {
+    margin-left: 3%;
+    padding-top: 3%;
+}
+
+#imgLycee {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#pImgLycee {
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#imgDUT {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#pImgDUT {
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#imgBafa {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#pImgBafa {
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#imgLicence {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#pImgLicence {
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#imgStage {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#pImgStage {
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#imgMaster {
+    height: 40%;
+    width: 70%;
+    margin-right: 0%;
+    margin-left: 14%;
+    padding-right: 0%;
+}
+
+#pImgMaster {
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 60%;
+    height: 80%;
+}
+
+#idBackMenu {
+    margin-top: 20%;
+    position: fixed;
+    margin-left: -2%;
+}
+
+#idLogo {
+    font-size: 30px;
+    margin-left: 40%;
+}
+
+.toggle {
+    background-color: #c87f8a;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.fa-plus {
+    font-size: 60px;
+    color: white;
+    display: block;
+    margin-top: 6%;
+    transition: 0.7s;
+    margin-left: -14%;
+}
+
+.menu {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    transform: scale(0);
+    border-radius: 50%;
+    border-style: double;
+    border-color: #c87f8a;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    transition: 0.7s;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+a {
+    display: inline-block;
+    position: absolute;
+    font-size: 12px;
+    color: #BBBBBB;
+    cursor: pointer;
+}
+
+a:nth-child(1) {
+    top: 6px;
+    left: 45px;
+}
+
+a:nth-child(2) {
+    top: 24px;
+    left: 77px;
+}
+
+a:nth-child(3) {
+    top: 58px;
+    left: 76px;
+}
+
+a:nth-child(4) {
+    top: 78px;
+    left: 42px;
+}
+
+a:nth-child(5) {
+    top: 58px;
+    left: 10px;
+}
+
+a:nth-child(6) {
+    top: 23px;
+    left: 12px;
+}
+
+a:hover {
+    color: #c87f8a;
+}
